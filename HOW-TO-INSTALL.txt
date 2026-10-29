@@ -1,0 +1,52 @@
+PLANT SMART - Team Electrobots
+Plant smart, breathe easy!
+=====================================
+
+WHAT'S IN THIS FOLDER
+  index.html            the app
+  manifest.webmanifest  makes it installable
+  sw.js                 makes it work offline
+  icon-*.png            app icons
+Keep all the files together in one folder.
+
+STEP 1 - PUT THE APP ONLINE (free, about 2 minutes)
+To install it on phones and tablets, the app needs a web address.
+Easiest way: Netlify Drop
+  1. Go to https://app.netlify.com/drop on a laptop
+  2. Drag this whole folder onto the page
+  3. You get a link like https://something.netlify.app
+  4. Create a free account when asked, so the link stays up
+(GitHub Pages also works if you already use GitHub.)
+
+STEP 2 - INSTALL ON EACH DEVICE (do this with Wi-Fi)
+  iPhone / iPad: open the link in Safari > Share > Add to Home Screen
+  Android: open the link in Chrome > menu (⋮) > Install app
+  Laptop (Chrome or Edge): open the link > click "Install Plant Smart"
+                           (button in the app, or the install icon in the address bar)
+Open the installed app once while still on Wi-Fi. After that it works offline.
+
+STEP 3 - TEACH IT YOUR TAGS (before competition day)
+  Option A, with Wi-Fi and an AI key: scan a tag, then tap "Save for offline".
+  Option B, no AI needed: open "Teach Plant Smart a tree", type the name,
+           pick the pollen score, add a photo of the tag, tap Save tree.
+Saved tags appear in "Our tag library" and work with no internet.
+Typing a saved tree's name in the scanner also finds it offline.
+
+MOVING YOUR TAGS TO ANOTHER DEVICE
+  Tap "Back up library" to save plant-smart-library.json.
+  Send that file to the other device, then tap "Restore from backup".
+  (Each device keeps its own library, so do this for every demo device.)
+
+AI PHOTO SCANNING (optional, needs internet)
+  Open "AI settings" and paste a Claude API key from console.anthropic.com.
+  The key stays only on that device. Each scan costs a few cents.
+  With no key or no Wi-Fi, the app runs in demo mode automatically.
+
+QUICK TEST ON A LAPTOP (no setup)
+  Double-click index.html to open it in a browser. Everything works except
+  installing and the offline cache, which need Step 1.
+
+COMPETITION DAY CHECKLIST
+  [ ] App installed and opened once on Wi-Fi on every demo device
+  [ ] Your tags saved in "Our tag library" on every demo device
+  [ ] Turn on airplane mode and test: tap a saved tag and a demo tree
