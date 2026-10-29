@@ -9,14 +9,8 @@ WHAT'S IN THIS FOLDER
   icon-*.png            app icons
 Keep all the files together in one folder.
 
-STEP 1 - PUT THE APP ONLINE (free, about 2 minutes)
-To install it on phones and tablets, the app needs a web address.
-Easiest way: Netlify Drop
-  1. Go to https://app.netlify.com/drop on a laptop
-  2. Drag this whole folder onto the page
-  3. You get a link like https://something.netlify.app
-  4. Create a free account when asked, so the link stays up
-(GitHub Pages also works if you already use GitHub.)
+STEP 1 - OPEN THE APP
+  The app is online at: https://meghana332.github.io/plant-smart/
 
 STEP 2 - INSTALL ON EACH DEVICE (do this with Wi-Fi)
   iPhone / iPad: open the link in Safari > Share > Add to Home Screen
